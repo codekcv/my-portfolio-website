@@ -1,5 +1,6 @@
 import Head from "next/head";
 import styled, { css } from "styled-components";
+import socials from "../constants/social-links";
 
 const Index = () => (
   <>
@@ -15,6 +16,16 @@ const Index = () => (
           <br />
           &lt;This site is under construction /&gt;
         </p>
+
+        {/* <ul className="social-links">
+          {socials.map((social) => (
+            <li key={social.name}>
+              <a href={social.url} target="_blank" rel="noreferrer noopener">
+                {social.icon}
+              </a>
+            </li>
+          ))}
+        </ul> */}
       </main>
     </Container>
   </>
