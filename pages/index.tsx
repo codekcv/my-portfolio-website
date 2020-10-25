@@ -5,7 +5,7 @@ const Index = () => (
   <>
     <Head>
       <title>Christian Villamin</title>
-      <link rel="icon" href="/favicon.ico" />
+      <link rel="icon" href="/1412.ico" />
     </Head>
 
     <Container>
@@ -38,6 +38,7 @@ const Container = styled.div`
 
     p {
       text-align: center;
+      color: ${({ theme }) => theme["text-primary"]};
     }
   }
 `;
